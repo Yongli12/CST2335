@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Android Labs</string>
-    <string name="hello_message">你好 CST2335!</string>string>
+    <string name="hello_message">Hello New Term</string>string>
     <string name="ButtonText">I\'m a button</string>
+    <string name="TextViewWord">Here are my widgets:</string>
+    <string name="ButtonWord">button</string>
+    <string name="CheckBoxWord">Check this out!</string>
+    <string name="SwitchWord">Switch on / off</string>
+    <string name="EditTextWord">Type your answer here</string>
 </resources>

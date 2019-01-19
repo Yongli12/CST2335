@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Android Labs</string>
-    <string name="hello_message">你好 CST2335!</string>string>
-    <string name="ButtonText">I\'m a button</string>
+    <string name="app_name">安卓</string>
+    <string name="hello_message">你好 新学期</string>string>
+    <string name="ButtonText">按钮</string>
+    <string name="TextViewWord">这是我的小部件：</string>
+    <string name="ButtonWord">按钮</string>
+    <string name="CheckBoxWord">查看！</string>
+    <string name="SwitchWord">开关 开 / 关</string>
+    <string name="EditTextWord">请输入你的答案</string>
+
 </resources>
