@@ -7,4 +7,16 @@
     <string name="CheckBoxWord">Check this out!</string>
     <string name="SwitchWord">Switch on / off</string>
     <string name="EditTextWord">Type your answer here</string>
+
+    <string name="email1">Enter your email address:</string>
+    <string name="inemail">Type email here</string>
+    <string name="password">Type your password</string>
+    <string name="login">LOGIN</string>
+    <string name="profile">Your profile:</string>
+    <string name="pname">Your name:</string>
+    <string name="hname">Enter your name</string>
+    <string name="pemail">Your email:</string>
+    <string name="hemail">Enter your Email</string>
+    <string name="ppicture">Your picture:</string>
+    <string name="click">Click the button above to take a picture:</string>
 </resources>

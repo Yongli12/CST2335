@@ -16,9 +16,10 @@
     <Button
         android:id="@+id/button"
         style="@android:style/Widget.Button"
-        android:layout_width="160dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
+        android:layout_toStartOf="@id/imageButton"
         android:layout_below="@id/textView"
         android:text="@string/ButtonWord" />
 
@@ -29,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@id/textView"
+        android:paddingRight="8dp"
         android:src="@drawable/flag" />
 
     <CheckBox

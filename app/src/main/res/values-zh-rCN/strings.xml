@@ -9,4 +9,16 @@
     <string name="SwitchWord">开关 开 / 关</string>
     <string name="EditTextWord">请输入你的答案</string>
 
+    <string name="email1">请输入你的邮箱地址:</string>
+    <string name="inemail">邮箱地址</string>
+    <string name="password">请输入你的密码</string>
+    <string name="login">登录</string>
+    <string name="profile">个人资料：</string>
+    <string name="pname">姓名：</string>
+    <string name="hname">请输入姓名</string>
+    <string name="pemail">邮箱</string>
+    <string name="hemail">请输入邮箱</string>
+    <string name="ppicture">照片:</string>
+    <string name="click">请点击上面按钮拍摄照片:</string>
+
 </resources>
