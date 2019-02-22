@@ -7,6 +7,7 @@ import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -32,8 +33,16 @@ public class ProfileActivity extends AppCompatActivity {
         mImageButton.setOnClickListener(m -> {
             dispatchTakePictureIntent();
         });
+        Button chatB = (Button)findViewById(R.id.chatB);
+        chatB.setOnClickListener(c ->{
+            Intent chat = new Intent(ProfileActivity.this, ChatRoomActivity.class);
+            startActivity(chat);
+        });
+        Intent chat = getIntent();
+
 
         Log.e(ACTIVITY_NAME,"In function: onCreate");
+       // Log.d("test", "yongli");
     }
 
     //take a picture function

@@ -21,4 +21,11 @@
     <string name="ppicture">照片:</string>
     <string name="click">请点击上面按钮拍摄照片:</string>
 
+    <string name="receive">接收</string>
+    <string name="send">发送</string>
+    <string name="put">请输入</string>
+    <string name="rowr">消息</string>
+    <string name="rows">消息</string>
+    <string name="chat">进入聊天室</string>
+
 </resources>

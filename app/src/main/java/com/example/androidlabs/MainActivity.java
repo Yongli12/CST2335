@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         //give the login button action to go to the Profile page
         Button loginButton = (Button)findViewById(R.id.login);
+
         inputEmail = (EditText)findViewById(R.id.inputEmail);
         loginButton.setOnClickListener(b -> {
             Intent nextPage = new Intent(MainActivity.this, ProfileActivity.class);
