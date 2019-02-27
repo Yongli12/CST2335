@@ -2,22 +2,49 @@ package com.example.androidlabs;
 
 public class Message {
     private String message;
-    private String action;
+    private boolean isSent = false;
+    private long id;
 
-    public Message(String message, String action){
+    public Message(long id, String message, boolean isSent){
         this.message = message;
-        this.action = action;
+        this.isSent = isSent;
+        this.id = id;
     }
-    public void setMessage(String message){
+    //chain constructor
+    public Message(long id, String message){
+        this.id = id;
         this.message = message;
     }
-    public void setAction(String action){
-        this.action = action;
+    public Message(){
+        this.id = id;
+        this.message = message;
     }
-    public String getMessage(){
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public void setSent(boolean sent) {
+        this.isSent = sent;
+    }
+
+
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getMessage() {
         return message;
     }
-    public String getAction(){
-        return action;
+
+    public boolean isSent() {
+        return isSent;
+    }
+
+
+
+    public long getId() {
+        return id;
     }
 }

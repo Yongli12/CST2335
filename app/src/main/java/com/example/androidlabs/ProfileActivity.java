@@ -38,8 +38,6 @@ public class ProfileActivity extends AppCompatActivity {
             Intent chat = new Intent(ProfileActivity.this, ChatRoomActivity.class);
             startActivity(chat);
         });
-        Intent chat = getIntent();
-
 
         Log.e(ACTIVITY_NAME,"In function: onCreate");
        // Log.d("test", "yongli");

@@ -14,7 +14,11 @@
         android:layout_width="wrap_content"
         android:layout_toLeftOf="@+id/sendA"
         android:text="@string/rows"
-
-        android:id="@+id/sendOnRow"/>
+        android:id="@+id/message"/>
 
 </RelativeLayout>
+
+
+
+
+
