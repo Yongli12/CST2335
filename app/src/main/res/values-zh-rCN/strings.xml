@@ -28,4 +28,6 @@
     <string name="rows">消息</string>
     <string name="chat">进入聊天室</string>
 
+    <string name="toolbar">請進入工具頁面</string>
+
 </resources>

@@ -10,7 +10,6 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -37,6 +36,12 @@ public class ProfileActivity extends AppCompatActivity {
         chatB.setOnClickListener(c ->{
             Intent chat = new Intent(ProfileActivity.this, ChatRoomActivity.class);
             startActivity(chat);
+        });
+
+        Button toolB = (Button)findViewById(R.id.toolbar);
+        toolB.setOnClickListener(c -> {
+            Intent tool = new Intent(ProfileActivity.this, TestToolbar.class);
+            startActivity(tool);
         });
 
         Log.e(ACTIVITY_NAME,"In function: onCreate");

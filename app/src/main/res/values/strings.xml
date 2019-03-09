@@ -27,4 +27,6 @@
     <string name="rows">objects</string>
     <string name="chat">Go to chat</string>
 
+    <string name="toolbar">Go to Toolbar page</string>
+
 </resources>
